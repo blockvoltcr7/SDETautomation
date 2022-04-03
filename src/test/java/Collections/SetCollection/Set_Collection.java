@@ -1,4 +1,4 @@
-package Collections;
+package Collections.SetCollection;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -12,8 +12,7 @@ public class Set_Collection {
 	 static Set<String> s2 = new LinkedHashSet<String>();  
 	 static Set<String> s3 = new TreeSet<String>(); 
 	
-	
-	
+
 	public static void main(String[] args) {
 
 		s1.add("tommy");
