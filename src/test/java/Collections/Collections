@@ -1,0 +1,244 @@
+Collections in Java
+
+Java Collections is a framework that contains many interfaces and classes to help store and manipulate groups of objects.
+Java Collections helps achieve operations that you perform on data such as searching, sorting, inserting, manipulating, and deleting.
+The interfaces in the collections framework are 'Set', 'List', 'Queue' 'Deque'
+The classes in the collections framework are 'ArrayList', 'Vector', 'LinkedList', 'PriorityQueue', 'HashSet', 'LinkedHashSet', 'TreeSet', 'Stack'
+
+
+***********************
+
+What is collections in java?	
+
+A Collection represents a single unit of objects, i.e., a group.
+
+***********************
+
+
+what are the most common methods of collections interface?
+
+No.	Method	Description
+1	public boolean add(E e)	It is used to insert an element in this collection.
+2	public boolean addAll(Collection<? extends E> c)	It is used to insert the specified collection elements in the invoking collection.
+3	public boolean remove(Object element)	It is used to delete an element from the collection.
+4	public boolean removeAll(Collection<?> c)	It is used to delete all the elements of the specified collection from the invoking collection.
+7	public int size()	It returns the total number of elements in the collection.
+8	public void clear()	It removes the total number of elements from the collection.
+9	public boolean contains(Object element)	It is used to search an element.
+11	public Iterator iterator()	It returns an iterator.
+14	public boolean isEmpty()	It checks if collection is empty.
+18	public boolean equals(Object element)	It matches two collections.
+
+
+***********************
+
+what is the iterable interface?
+
+Iterable (Iterator interface) allows us to facilitate iteration of elements only in a forward direction.
+
+Iterator<T> iterator()  
+It returns the iterator over the elements of type T.
+***********************
+
+What are the methods of Iterator interface?
+There are only three methods in the Iterator interface. They are:
+
+No.		Method						Description
+1		public boolean hasNext()	It returns true if the iterator has more elements otherwise it returns false.
+2		public Object next()		It returns the element and moves the cursor pointer to the next element.
+3		public void remove()		It removes the last elements returned by the iterator. It is less used.
+
+***********************
+
+Describe the Collection Interface?
+
+
+The Collection interface is the interface which is implemented by all the classes in the collections framework such as
+'ArrayList', 'Vector', 'LinkedList', 'PriorityQueue', 'HashSet', 'LinkedHashSet', 'TreeSet'
+
+The Collection interface declares the methods that every collection should have...
+Basically the Collection interface builds the foundation on the collection framework... 
+the collection framework depends on the Collection interface
+meaning the Collection framework implements all the Collection Framework classes and allows those classes to use the
+Collection Interface methods.
+
+***********************
+
+List Interface
+
+List interface is the child interface of the Collection interface.
+
+List is a data structure that can be declared of any type object such as String, Integer, Object, etc
+We can store objects in the list in order.
+List can have duplicate values
+
+The List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack.
+
+To instantiate the List interface, we must use :
+
+List <data-type> list1= new ArrayList();  
+List <data-type> list2 = new LinkedList();  
+List <data-type> list3 = new Vector();  
+List <data-type> list4 = new Stack();  
+There are various methods in List interface that can be used to insert, delete, and access the elements from the list.
+https://courses.cs.washington.edu/courses/cse341/98au/java/jdk1.2beta4/docs/api/java/util/List.html
+
+***********************
+
+ArrayList
+
+
+The ArrayList class implements the List interface. 
+
+It uses a dynamic array to store duplicate elements of different data types. 
+The ArrayList class maintains the insertion order and is non-synchronized. 
+The elements stored in the ArrayList class can be randomly accessed. Consider the following example.
+
+ArrayList<String> list = new ArrayList<String>(); //created Arraylist of type String
+  
+list.add("Rubiks Cube");//Adding object in arraylist  
+list.add("army knife");  
+list.add("sun glasses");  
+list.add("cigar");  
+
+//Traversing list through Iterator  
+Iterator itr = list.iterator();
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+ }
+ 
+ https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
+
+***********************
+
+
+LinkedList
+LinkedList implements the Collection interface. 
+Linked List is data structure that consists of a set of sequentially linked records called nodes. 
+Each node contains two fields, called links, that are references to the previous and to the next node in the sequence of nodes.
+It can store the duplicate elements. 
+It maintains the insertion order and is not synchronized. In LinkedList, the manipulation is fast because no shifting is required.
+Consider the following example.
+
+1. LinkedList<String> al=new LinkedList<String>();  
+2. al.add("Book");  
+3. al.add("apple");  
+4. al.add("back bag");  
+5. al.add("banana");  
+6. Iterator<String> itr=al.iterator();  
+7. while(itr.hasNext()){  
+8. System.out.println(itr.next());  
+9. }  
+
+
+***********************
+
+
+Vector
+Vector uses a dynamic array to store the data elements. 
+It is similar to ArrayList. 
+However, It is synchronized and contains many methods that are not the part of Collection framework.
+It means that multiple threads can modify the Vector in parallel without risk of data corruption.
+If you want to do this with an ArrayList, you need to use the synchronized keyword.
+meaning multiple programs can use this list at the same time with out risk of data corruption.
+
+Vector<String> v=new Vector<String>();  
+v.add("CPU");  
+v.add("monitor");  
+v.add("motherboard");  
+v.add("hard drive");  
+Iterator<String> itr=v.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}   
+
+***********************
+
+Stack
+The stack is the subclass of Vector.
+ It implements the last-in-first-out data structure, i.e., Stack. 
+ The stack contains all of the methods of Vector class and also provides its methods like boolean push(), 
+ boolean peek(), boolean push(object o), which defines its properties.
+
+Stack<String> stack = new Stack<String>();  
+stack.push("Ayush");  
+stack.push("Garvit");  
+stack.push("Amit");  
+stack.push("Ashish");  
+stack.push("Garima");  
+stack.pop();  
+Iterator<String> itr=stack.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+
+https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
+
+***********************
+
+
+Set Interface
+Set Interface is present in Java's java.util package. 
+It extends the Collection interface. 
+It represents the unordered set of elements which doesn't allow us to store the !!!duplicate items!! No duplicate items
+We can store at most one null value in Set. Set is implemented by HashSet, LinkedHashSet, and TreeSet.
+
+Set<data-type> s1 = new HashSet<data-type>();  
+Set<data-type> s2 = new LinkedHashSet<data-type>();  
+Set<data-type> s3 = new TreeSet<data-type>();  
+
+***********************
+
+HashSet
+HashSet class implements Set Interface. 
+It represents the collection that uses a hash table for storage. 
+Hashing is used to store the elements in the HashSet. It contains unique items.
+
+HashSet<String> set=new HashSet<String>();  
+set.add("Ravi");  
+set.add("Vijay");  
+set.add("Ravi");  
+set.add("Ajay");  
+
+//Traversing elements  
+Iterator<String> itr=set.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+
+
+***********************
+
+LinkedHashSet
+LinkedHashSet class represents the LinkedList implementation of Set Interface. 
+It extends the HashSet class and implements Set interface.
+Like HashSet, It also contains unique elements. 
+It maintains the insertion order and permits null elements.
+LinkedHashSet<String> set=new LinkedHashSet<String>();  
+set.add("Ravi");  
+set.add("Vijay");  
+set.add("Ravi");  
+set.add(null);  
+set.add("Ajay");  
+Iterator<String> itr=set.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+
+SortedSet Interface
+SortedSet is the alternate of Set interface that provides a total ordering on its elements.
+The elements of the SortedSet are arranged in the increasing (ascending) order.
+The SortedSet provides the additional methods that inhibit the natural ordering of the elements.
+
+
+
+
+What are the two ways to iterate the elements of a collection?
+What is the difference between ArrayList and LinkedList classes in collection framework?
+What is the difference between ArrayList and Vector classes in collection framework?
+What is the difference between HashSet and HashMap classes in collection framework?
+What is the difference between HashMap and Hashtable class?
+What is the difference between Iterator and Enumeration interface in collection framework?
+How can we sort the elements of an object? What is the difference between Comparable and Comparator interfaces?
+What does the hashcode() method?
+What is the difference between Java collection and Java collections?

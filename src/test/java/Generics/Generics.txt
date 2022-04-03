@@ -1,0 +1,17 @@
+GENERICS explained
+
+Create a ArrayList without generics:
+
+List list = new ArrayList();
+list.add("hello");
+String s=list.get(0);// Compile time error
+String s = (String) list.get(0);//typecasting  you are casting "String" data type to List object to make it work
+
+
+Create a ArrayList with generics:
+
+List<String> list = new ArrayList<String>();
+list.add("hello");
+String s=list.get(0);
+list.add(10);// Compile error you cant add an integer in a list that only takes "String" type objects.
+
