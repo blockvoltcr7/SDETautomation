@@ -1,4 +1,4 @@
-package Collections.ds;
+package Collections.StackExample;
 
 public class Stack {
 

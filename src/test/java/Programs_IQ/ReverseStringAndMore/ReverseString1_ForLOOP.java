@@ -14,7 +14,7 @@ public class ReverseString1_ForLOOP {
 
 
         //create a string
-        String myStr = "Selenium";
+        String myStr = "sami";
 
         //store string to integer and get the length of the string
         int len = myStr.length(); //8
@@ -28,12 +28,9 @@ public class ReverseString1_ForLOOP {
         //i must be greater than 0
         //get the length of the string and minus 1 .. this allows us to start from 8th letter of the string and then (--) deduct
         for (int i = len-1; i>=0; i-- ) {
-
           rev = rev + myStr.charAt(i);
-
-            System.out.println(rev);
-
         }
+        System.out.println(rev);
 
         //
 
