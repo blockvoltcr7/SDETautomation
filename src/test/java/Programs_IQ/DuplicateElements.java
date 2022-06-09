@@ -33,6 +33,7 @@ public class DuplicateElements {
         Set<String> store = new HashSet<String>();
 
         for (String name : names) {
+
             if (store.add(name) == false) {
 
                 System.out.println(name);
