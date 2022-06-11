@@ -116,7 +116,7 @@ LinkedList
 LinkedList implements the Collection interface. 
 Linked List is data structure that consists of a set of sequentially linked records called nodes. 
 Each node contains two fields, called links, that are references to the previous and to the next node in the sequence of nodes.
-It can store the duplicate elements. 
+It can store duplicate elements.
 It maintains the insertion order and is not synchronized. In LinkedList, the manipulation is fast because no shifting is required.
 Consider the following example.
 
@@ -151,6 +151,18 @@ Iterator<String> itr=v.iterator();
 while(itr.hasNext()){  
 System.out.println(itr.next());  
 }   
+
+***********************
+what is the difference between synchronized and non-synchronized?
+
+A synchronized collection implies that the class is thread safe.
+(You can have non-synchronized collections that are also thread safe, but that is a topic for about thousand theses another day.)
+
+The collections synchronize mutations by obtaining locks to make sure that other threads don't corrupt the state.
+
+Basically, use the non-synchronized versions, unless you have multiple threads.
+
+(And if you don't know, a thread is essentially a line of execution within a program. Some programs have multiple threads, all sharing the same code and memory.)
 
 ***********************
 
@@ -194,7 +206,7 @@ HashSet class implements Set Interface.
 It represents the collection that uses a hash table for storage. 
 Hashing is used to store the elements in the HashSet. It contains unique items.
 
-HashSet<String> set=new HashSet<String>();  
+HashSet<String> set = new HashSet<String>();
 set.add("Ravi");  
 set.add("Vijay");  
 set.add("Ravi");  
@@ -214,7 +226,7 @@ LinkedHashSet class represents the LinkedList implementation of Set Interface.
 It extends the HashSet class and implements Set interface.
 Like HashSet, It also contains unique elements. 
 It maintains the insertion order and permits null elements.
-LinkedHashSet<String> set=new LinkedHashSet<String>();  
+LinkedHashSet<String> set = new LinkedHashSet<String>();
 set.add("Ravi");  
 set.add("Vijay");  
 set.add("Ravi");  
@@ -225,6 +237,9 @@ while(itr.hasNext()){
 System.out.println(itr.next());  
 }  
 
+***********************
+
+
 SortedSet Interface
 SortedSet is the alternate of Set interface that provides a total ordering on its elements.
 The elements of the SortedSet are arranged in the increasing (ascending) order.
@@ -232,9 +247,18 @@ The SortedSet provides the additional methods that inhibit the natural ordering 
 
 
 
+Pop Quiz:
+
 
 What are the two ways to iterate the elements of a collection?
+
+We can use the Iterator class itr.next()
+We can for loop, enhanced for loop, or while loop
+
 What is the difference between ArrayList and LinkedList classes in collection framework?
+
+Arraylist doesnt have a pointer to he previous or next node.
+
 What is the difference between ArrayList and Vector classes in collection framework?
 What is the difference between HashSet and HashMap classes in collection framework?
 What is the difference between HashMap and Hashtable class?
