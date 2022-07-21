@@ -1,6 +1,6 @@
-package Programs_IQ.FindMissingNumber_inArray;
+package Programs_IQ;
 
-public class Find_Missing_Num_In_Array {
+public class FindSum {
 
 
     public static void main(String[] args) {

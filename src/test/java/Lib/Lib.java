@@ -5,7 +5,7 @@ import java.util.Random;
 public class Lib {
 
 	
-	public static String generateRandom_SXM_TestUser() {
+	public static String generateRandom_TestUser() {
 		String mychars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 		StringBuilder stringBuildr = new StringBuilder();
 		Random rnd = new Random();
