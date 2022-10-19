@@ -2,5 +2,11 @@ package Collections.ArrayList;
 
 public class ArrayListPractice2 {
 
-    //pending...
+
+    public static void main(String[] args) {
+
+
+
+    }
+
 }
