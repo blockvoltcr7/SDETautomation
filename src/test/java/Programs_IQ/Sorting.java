@@ -37,7 +37,6 @@ public class Sorting {
 	           
 	            for (int n = 0; n<array.length;n++) {
 	                System.out.println(array[n] + ",");
-
 	            }
 
 	            System.out.println("\n");

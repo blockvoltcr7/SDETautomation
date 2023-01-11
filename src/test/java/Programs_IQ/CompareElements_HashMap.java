@@ -7,10 +7,6 @@ public class CompareElements_HashMap {
 
     public static void main(String[] args) {
 
-
-
-
-
     }
 
 
@@ -18,7 +14,6 @@ public class CompareElements_HashMap {
 
         //create a hashmap
         HashMap<String, Integer> hmap = new HashMap<String, Integer>();
-
 
         for(int i = 0; i<hmap.size();i++) {
             if (!hmap.containsKey(a[i])) {

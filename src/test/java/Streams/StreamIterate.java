@@ -14,8 +14,6 @@ public class StreamIterate {
         streamIterated.forEach(x -> listofNums.add(x));
         listofNums.stream().forEach(x -> System.out.println(x));
 
-
-
         //vs
 
         System.out.println("\n");

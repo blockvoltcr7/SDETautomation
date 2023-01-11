@@ -62,7 +62,7 @@ public class BinarySearch1 {
             System.out.println("midpoint is index "+ midpoint + " -> " + arr.get(midpoint) + " ... start = "+ start + " && end = " +end );
             if(arr.get(midpoint).equalsIgnoreCase(targetWord)){
                 return targetWord;
-            }else if (arr.get(midpoint).charAt(0)<targetWord.charAt(0)){
+            }else if (arr.get(midpoint).charAt(0) < targetWord.charAt(0)){
                 //then search the right part of the array
                 System.out.println("searching right");
                 start = midpoint + 1;

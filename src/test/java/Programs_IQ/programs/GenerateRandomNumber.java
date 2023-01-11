@@ -18,7 +18,7 @@ public class GenerateRandomNumber {
 
 		for(int i=0; i<mylimit;i++){
 
-			int number = ran.nextInt(10);
+			int number = ran.nextInt(100);
 
 			System.out.println(number);
 		}
@@ -30,6 +30,16 @@ public class GenerateRandomNumber {
 
 		//calling the method by using obj instance of GenerateRandomNumber class
 		obj.generateRandomNumber();
+		int min = 1000;
+		int max = 50000;
+		double result = Math.random() * ( max - min );
+
+		System.out.println(Math.round(result));
+
+		double weight = 1.0 / 4;
+
+		System.out.println(weight);
+
 	}
 
 }

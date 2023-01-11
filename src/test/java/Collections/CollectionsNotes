@@ -156,7 +156,6 @@ System.out.println(itr.next());
 what is the difference between synchronized and non-synchronized?
 
 A synchronized collection implies that the class is thread safe.
-(You can have non-synchronized collections that are also thread safe, but that is a topic for about thousand theses another day.)
 
 The collections synchronize mutations by obtaining locks to make sure that other threads don't corrupt the state.
 

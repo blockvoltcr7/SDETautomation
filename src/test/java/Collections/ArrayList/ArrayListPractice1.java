@@ -69,6 +69,8 @@ public class ArrayListPractice1 {
 
         System.out.println("index of my favorite stock, TSLA :" +indexOfMyFavoriteStock);
 
+
+
     }
 
 
