@@ -25,6 +25,7 @@ public class FilterDemo2 {
         //filtering with multiple conditions and adding it to an empty list
         longNmaes = names.stream().filter(str -> str.length()> 6 && str.length()<8).collect(Collectors.toList());
 
+
         System.out.println(longNmaes);
 
         //using for each to consume

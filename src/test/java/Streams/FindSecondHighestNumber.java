@@ -12,5 +12,7 @@ public class FindSecondHighestNumber {
 
         int secondHighest = list.stream().sorted(Collections.reverseOrder()).distinct().skip(1).findFirst().get();
         System.out.println("second highest number is "+ secondHighest);
+
     }
+
 }

@@ -41,6 +41,7 @@ public class FilterDemo4 {
         productList.add(new Product(6,"playstation", 600));
 
 
+        //return all the products that have a price greater than 1000
         productList.stream().filter(p -> p.price > 1000).forEach(pr -> System.out.println(pr.name + " | " + pr.price));
 
 
