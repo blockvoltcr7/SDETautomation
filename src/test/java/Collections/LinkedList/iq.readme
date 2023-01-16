@@ -1,0 +1,21 @@
+arraylist:
+This collection uses a one-dimensional resizable array to store elements.
+The initial size of a collection upon creation is set to 10 elements by default.
+Elements in a collection are placed in memory next to each other.
+Accessing an element of a collection by index takes constant time.
+Insertion at the end of a list takes, on average, constant time. Sometimes re-creation and copying are required.
+Removing the last element of a collection takes constant time.
+Inserting and removing collection elements in the middle of a list causes elements placed "to the right" in this list to be overwritten.
+Removing elements does not reduce the size of an array. You can use the trimToSize() method, which truncates the size of an array to the current number of elements in the list.
+
+
+linkedlist:
+
+This uses a bidirectional, cyclic linked list with a header element.
+The initial size of a collection upon creation is zero elements, and only the header element is created.
+Elements are not always placed next to each other in memory; they can be scattered.
+A collection element is accessed by index in linear time. This is due to the search for the element's position that starts from the header.
+The first and last elements in a list are always accessed for constant time.
+Insertion and deletion of an element occur in constant time (the position search is not taken into account here).
+Insertion and deletion of an element are performed by reconfiguring the references of the previous and next elements, and the element is inserted or deleted between them.
+The number of elements is potentially unlimited but depends on the amount of available memory.
