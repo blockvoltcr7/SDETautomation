@@ -16,7 +16,7 @@ public class FilterDemo2 {
         //length of the name.. less than 6 and greater than 8
 
 
-        List<String> names= Arrays.asList("melissa","sami", "john","Veronika","michael-angelo","jennifer");
+        List<String> names= Arrays.asList("melissa","sami", "john","Veronika","michael-angelo","jennifer","mamy");
 
         //we can directly print the data or store in another data structure
 
@@ -29,6 +29,10 @@ public class FilterDemo2 {
 
         //using for each to consume
         names.stream().filter(str -> str.length()> 6 && str.length()<8).forEach(System.out::println);
+
+
+        System.out.println("----------");
+        names.stream().filter(str -> str.contains("am")).forEach(System.out::println);
 
     }
 

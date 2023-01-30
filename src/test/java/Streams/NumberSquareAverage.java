@@ -1,7 +1,9 @@
 package Streams;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class NumberSquareAverage {
 
@@ -13,6 +15,11 @@ public class NumberSquareAverage {
                                 .average()
                                     .getAsDouble();
         System.out.println(squaredAverage);
+
+        List<Integer> data = list.stream().map(n -> n *2).collect(Collectors.toList());
+
+        System.out.println("-----------");
+        data.stream().forEach(System.out::println);
     }
 
 
