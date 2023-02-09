@@ -1,4 +1,4 @@
-package Programs_IQ.programs;
+package Programs_IQ;
 
 public class PatternProgram2 {
 
