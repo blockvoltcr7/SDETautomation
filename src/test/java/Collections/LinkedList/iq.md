@@ -29,3 +29,12 @@ The first and last elements in a list are always accessed for constant time.
 Insertion and deletion of an element occur in constant time (the position search is not taken into account here).
 Insertion and deletion of an element are performed by reconfiguring the references of the previous and next elements, and the element is inserted or deleted between them.
 The number of elements is potentially unlimited but depends on the amount of available memory.
+
+
+
+ArrayList	LinkedList
+
+Advantages	- Fast random access to elements<br>- Good for frequent reads and infrequent writes<br>- Memory efficient for storing large number of objects	- Fast insertion and deletion at any point in the list<br>- Good for frequent writes and infrequent reads<br>- Memory efficient for storing small number of objects
+
+
+Disadvantages	- Slow insertion and deletion at any point in the list due to element shifting<br>- Not memory efficient for storing small number of objects<br>- Poor performance for very large lists with frequent insertions or deletions	- Slow random access to elements<br>- Poor performance for very large lists with frequent reads<br>- Uses more memory than ArrayList for storing the same number of objects
