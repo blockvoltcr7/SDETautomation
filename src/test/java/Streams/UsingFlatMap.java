@@ -51,10 +51,26 @@ public class UsingFlatMap {
         //use the flatMap() method to flatten the stream into a single stream of integers.
         //The flatMap() method takes a function that returns a stream, and combines the resulting streams into a single stream
         List<Integer> flattenedNumbers = numbers.stream()
-                .flatMap(list -> list.stream())
-                .collect(Collectors.toList());
+                .flatMap(list -> list.stream())// adding the lists to a single stream
+                .collect(Collectors.toList());// then collecting the data
 
         System.out.println("flattened numbers "+flattenedNumbers);
+
+
+
+
+        List<List<String>> sentences = Arrays.asList(
+                Arrays.asList("The quick brown fox", "jumps over", "the lazy dog"),
+                Arrays.asList("She sells seashells", "by the seashore"),
+                Arrays.asList("How much", "wood would a woodchuck chuck")
+        );
+
+        List<String> words = sentences.stream()
+                .flatMap(list -> list.stream())
+                .flatMap(sentence -> Arrays.stream(sentence.split(" ")))
+                .collect(Collectors.toList());
+
+        System.out.println(words);
 
     }
 }
