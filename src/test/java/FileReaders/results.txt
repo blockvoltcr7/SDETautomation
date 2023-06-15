@@ -1,0 +1,6 @@
+Chunked:
+Execution time: 31ms
+```
+
+Only BufferedReader
+Execution time: 51ms
