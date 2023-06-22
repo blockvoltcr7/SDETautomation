@@ -18,6 +18,10 @@ public class DummyDataGenerator {
             for (int i = 0; i < lineCount; i++) {
                 StringBuilder line = new StringBuilder(lineLength - 1);
                 for (int j = 0; j < lineLength - 1; j++) {
+
+                    //generate random numbers
+
+
                     line.append(random.nextInt(10)); // Append random numbers
                 }
                 line.append(randomChar(random, characters)); // Append random character

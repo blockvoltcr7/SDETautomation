@@ -43,7 +43,7 @@ public class LookForLastIndex {
 
         // Print the character counts
         for (Map.Entry<Character, Integer> entry : charCounts.entrySet()) {
-//            System.out.println("Character: " + entry.getKey() + ", Count: " + entry.getValue());
+            System.out.println("Character: " + entry.getKey() + ", Count: " + entry.getValue());
         }
 
         long endTime = System.currentTimeMillis();

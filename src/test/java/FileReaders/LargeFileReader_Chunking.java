@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -53,6 +54,36 @@ public class LargeFileReader_Chunking {
 //            System.out.println(character);
             if (character == ' ' || character == 'F' || character == 'M' || character == 'A' || character == 'R') {
                 charCounts.put(character, charCounts.get(character) + 1);
+            }
+        }
+    }
+
+    private static void processChunk2(char[] buffer, int bytesRead, Map<Character, Integer> charCounts) {
+        StringBuilder lineBuilder = new StringBuilder();
+
+        for (int i = 0; i < bytesRead; i++) {
+            char character = buffer[i];
+
+            // Append the character to the line builder
+            lineBuilder.append(character);
+
+            // Check for end of line
+            if (character == '\n') {
+                // Print the complete line
+                String line = lineBuilder.toString();
+                System.out.println("Line: " + line);
+                char characterFromLine = line.charAt(85);
+                System.out.println("characterFromLine: " + characterFromLine);
+
+                // Increment the count for the character
+                if (characterFromLine == ' ' || characterFromLine == 'F' || characterFromLine == 'M' || characterFromLine == 'A' || characterFromLine == 'R') {
+                    charCounts.put(characterFromLine, charCounts.get(characterFromLine) + 1);
+                }
+
+                // Reset the line builder for the next line
+                lineBuilder = new StringBuilder();
+
+
             }
         }
     }
