@@ -1,0 +1,18 @@
+Chunked:
+Character:  , Count: 6
+Character: A, Count: 11
+Character: R, Count: 12
+Character: F, Count: 11
+Character: M, Count: 10
+Execution time: 63ms
+
+
+```
+
+Only BufferedReader
+Character:  , Count: 6
+Character: A, Count: 11
+Character: R, Count: 11
+Character: F, Count: 11
+Character: M, Count: 10
+Execution time: 70ms
