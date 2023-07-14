@@ -24,7 +24,7 @@ public class FindStringDifference {
 
         public static void main(String[] args) {
             String str1 = "342434:S:FL:matt:F";
-            String str2 = "342434:R:FL:matt:F";
+            String str2 = "342434:R:FL:mttt:d";
 
             String difference = findStringDifference(str1, str2);
 
