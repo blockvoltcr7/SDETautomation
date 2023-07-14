@@ -1,0 +1,13 @@
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+https://www.markdownguide.org/cheat-sheet/
+## OCA
+
+### difference between compilation error and null pointer eception
+- **compilation error is a syntax error**
+  - syntax error is an error in the syntax of a sequence of characters or tokens that is intended to be written in a particular programming language. For compiled languages, syntax errors are detected at compile-time. A program will not compile until all syntax errors are corrected. For interpreted languages, however, a syntax error may be detected during program execution, and an interpreter's error messages might not differentiate syntax errors from errors of other kinds.
+- **null pointer exception is a runtime error**
+  - runtime error is an error that occurs during the execution of a program. In contrast, compile-time errors occur while a program is being compiled. Runtime errors indicate bugs in the program or problems that the designers had anticipated but could do nothing about. For example, running out of memory will often cause a runtime error.
+- **The distinction between compilation errors and runtime errors in Java is determined by when the error occurs and the nature of the error itself.**
+  - Compilation Errors: Compilation errors occur during the compilation phase, which happens before the program is executed. When you compile your Java source code, the compiler checks for syntax errors, type mismatches, and other violations of the Java language rules. If the code contains any of these errors, the compiler will produce error messages, and the code will fail to compile. Compilation errors prevent the program from being executed at all.
+  - Runtime Errors: Runtime errors, also known as exceptions, occur during the execution of a program. These errors can arise due to various reasons, such as accessing an array out of bounds, dividing by zero, or attempting to use a null reference. Runtime errors are not caught by the compiler during the compilation phase. Instead, they occur when a specific condition or exception arises during the program's execution. When a runtime error occurs, it may cause the program to terminate abnormally or result in unexpected behavior.
+  To summarize, compilation errors are identified by the compiler during the compilation phase and prevent the program from being executed, while runtime errors occur during program execution and may lead to abnormal program termination.
