@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a45e98a-1160-4a64-89d1-fb4989d93dec" name="Default Changelist" comment="adding latest changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/ChainingContructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/InitializeBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Operations/Increment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/AccessModifiersPractice/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/EnumsPractice/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/EnumsPractice/DaysSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/EnumsPractice/MusicType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/InheritanceChain/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/InheritanceChain/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/InheritanceChain/IntermediateClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Loops/Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Precedence/PrecedenceLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -79,13 +85,39 @@
       <recent name="Programs_IQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Increment">
-    <configuration name="ChainingContructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.ChainingContructor" />
+  <component name="RunManager" selected="Application.ChildClass">
+    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Loops.Challenge" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.*" />
+          <option name="PATTERN" value="OCA.Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.InheritanceChain.ChildClass" />
+      <module name="SDETautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCA.InheritanceChain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaysSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.EnumsPractice.DaysSwitch" />
+      <module name="SDETautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCA.EnumsPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,38 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitializeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.InitializeBlock" />
+    <configuration name="PrecedenceLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Precedence.PrecedenceLogic" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q25StringbuilderLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.Exam1.ClassesJavaAPI.Q25StringbuilderLength" />
-      <module name="SDETautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OCA.Exam1.ClassesJavaAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q27LocalDateRuntimeExeption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.Exam1.ClassesJavaAPI.Q27LocalDateRuntimeExeption" />
-      <module name="SDETautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OCA.Exam1.ClassesJavaAPI.*" />
+          <option name="PATTERN" value="OCA.Precedence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,20 +173,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Challenge" />
+      <item itemvalue="Application.ChildClass" />
+      <item itemvalue="Application.DaysSwitch" />
       <item itemvalue="Application.Increment" />
-      <item itemvalue="Application.ChainingContructor" />
-      <item itemvalue="Application.InitializeBlock" />
-      <item itemvalue="Application.Q25StringbuilderLength" />
-      <item itemvalue="Application.Q27LocalDateRuntimeExeption" />
+      <item itemvalue="Application.PrecedenceLogic" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChildClass" />
+        <item itemvalue="Application.DaysSwitch" />
+        <item itemvalue="Application.Challenge" />
+        <item itemvalue="Application.PrecedenceLogic" />
         <item itemvalue="Application.Increment" />
-        <item itemvalue="Application.ChainingContructor" />
-        <item itemvalue="Application.InitializeBlock" />
-        <item itemvalue="Application.Q27LocalDateRuntimeExeption" />
-        <item itemvalue="Application.Q25StringbuilderLength" />
       </list>
     </recent_temporary>
   </component>
