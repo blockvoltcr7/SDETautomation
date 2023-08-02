@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a45e98a-1160-4a64-89d1-fb4989d93dec" name="Default Changelist" comment="adding latest changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Operations/Increment2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/PredicatesTesting/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/PredicatesTesting/PromotionsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/interfaces/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/interfaces/Drawable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/DateFormatterExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/DateTimeExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/LocalDateTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/LocalTimeExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/WhatYouNeedToKnow.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDETautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDETautomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Generics/GenericClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Generics/GenericClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MapInterface/UsingHashMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MapInterface/UsingHashMaps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +85,13 @@
       <recent name="Programs_IQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PromotionsService">
-    <configuration name="Increment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.Operations.Increment" />
+  <component name="RunManager" selected="Application.DateFormatterExamples">
+    <configuration name="DateFormatterExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.LocalDatePractice.DateFormatterExamples" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.Operations.*" />
+          <option name="PATTERN" value="OCA.LocalDatePractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Increment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.Operations.Increment2" />
+    <configuration name="DateTimeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.LocalDatePractice.DateTimeExamples" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.Operations.*" />
+          <option name="PATTERN" value="OCA.LocalDatePractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitializeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.InitializeBlock" />
+    <configuration name="LocalTimeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.LocalDatePractice.LocalTimeExamples" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.*" />
+          <option name="PATTERN" value="OCA.LocalDatePractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromotionsService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.PredicatesTesting.PromotionsService" />
+    <configuration name="MapFilterPutInJsonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.MapFilterPutInJsonObject" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.PredicatesTesting.*" />
+          <option name="PATTERN" value="Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,15 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="OCA.LambdasTest.SampleLambda" />
+    <configuration name="SwappingPets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SwappingPets" />
       <module name="SDETautomation" />
-      <shortenClasspath name="ARGS_FILE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.LambdasTest.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,20 +173,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InitializeBlock" />
-      <item itemvalue="Application.PromotionsService" />
-      <item itemvalue="Application.Increment2" />
-      <item itemvalue="Application.Increment" />
-      <item itemvalue="Application.SampleLambda" />
+      <item itemvalue="Application.DateFormatterExamples" />
+      <item itemvalue="Application.LocalTimeExamples" />
+      <item itemvalue="Application.MapFilterPutInJsonObject" />
+      <item itemvalue="Application.DateTimeExamples" />
+      <item itemvalue="Application.SwappingPets" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PromotionsService" />
-        <item itemvalue="Application.InitializeBlock" />
-        <item itemvalue="Application.Increment2" />
-        <item itemvalue="Application.SampleLambda" />
-        <item itemvalue="Application.Increment" />
+        <item itemvalue="Application.DateFormatterExamples" />
+        <item itemvalue="Application.LocalTimeExamples" />
+        <item itemvalue="Application.DateTimeExamples" />
+        <item itemvalue="Application.MapFilterPutInJsonObject" />
+        <item itemvalue="Application.SwappingPets" />
       </list>
     </recent_temporary>
   </component>
