@@ -1,5 +1,7 @@
 package OCA.EnumsPractice;
 
+import java.util.Arrays;
+
 public enum MusicType {
 
     //this is an enum with a constructor and a method

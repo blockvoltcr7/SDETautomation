@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a45e98a-1160-4a64-89d1-fb4989d93dec" name="Default Changelist" comment="adding latest changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/DateFormatterExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/DateTimeExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/LocalDateTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/LocalTimeExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/LocalDatePractice/WhatYouNeedToKnow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/CollectionsPractice/ArrayCollectionsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/CollectionsPractice/MultiDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/CollectionsPractice/SortingAndSearching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/BaseDerivedtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/BooleanInstanceOfErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/ByteArrayEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/DecrementIncrementMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/DoWhileLoopRemainder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/HelloNumbersConcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/ISO_Date_time_localDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/InitializerBlockErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/LocalDateQ9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/SpaceStationDeleteInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/StringCharMango.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/StringConcatEqualsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/Exam3/SuperSubClassInstantiateWithoutInstanceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/VarargsExample/VarargsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OCA/WrapperClassesExp/WrapperClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDETautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDETautomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Generics/GenericClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Generics/GenericClassExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MapInterface/UsingHashMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MapInterface/UsingHashMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OCA/EnumsPractice/MusicType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OCA/EnumsPractice/MusicType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +97,13 @@
       <recent name="Programs_IQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateFormatterExamples">
-    <configuration name="DateFormatterExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.LocalDatePractice.DateFormatterExamples" />
+  <component name="RunManager" selected="Application.DoWhileLoopRemainder">
+    <configuration name="BaseDerivedtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Exam3.BaseDerivedtest" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.LocalDatePractice.*" />
+          <option name="PATTERN" value="OCA.Exam3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.LocalDatePractice.DateTimeExamples" />
+    <configuration name="DoWhileLoopRemainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Exam3.DoWhileLoopRemainder" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.LocalDatePractice.*" />
+          <option name="PATTERN" value="OCA.Exam3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalTimeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCA.LocalDatePractice.LocalTimeExamples" />
+    <configuration name="ISO_Date_time_localDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Exam3.ISO_Date_time_localDate" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCA.LocalDatePractice.*" />
+          <option name="PATTERN" value="OCA.Exam3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapFilterPutInJsonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Streams.MapFilterPutInJsonObject" />
+    <configuration name="SpaceStationDeleteInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Exam3.SpaceStationDeleteInsert" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Streams.*" />
+          <option name="PATTERN" value="OCA.Exam3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwappingPets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SwappingPets" />
+    <configuration name="SuperSubClassInstantiateWithoutInstanceName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCA.Exam3.SuperSubClassInstantiateWithoutInstanceName" />
       <module name="SDETautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="OCA.Exam3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,20 +185,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DateFormatterExamples" />
-      <item itemvalue="Application.LocalTimeExamples" />
-      <item itemvalue="Application.MapFilterPutInJsonObject" />
-      <item itemvalue="Application.DateTimeExamples" />
-      <item itemvalue="Application.SwappingPets" />
+      <item itemvalue="Application.BaseDerivedtest" />
+      <item itemvalue="Application.DoWhileLoopRemainder" />
+      <item itemvalue="Application.ISO_Date_time_localDate" />
+      <item itemvalue="Application.SpaceStationDeleteInsert" />
+      <item itemvalue="Application.SuperSubClassInstantiateWithoutInstanceName" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateFormatterExamples" />
-        <item itemvalue="Application.LocalTimeExamples" />
-        <item itemvalue="Application.DateTimeExamples" />
-        <item itemvalue="Application.MapFilterPutInJsonObject" />
-        <item itemvalue="Application.SwappingPets" />
+        <item itemvalue="Application.DoWhileLoopRemainder" />
+        <item itemvalue="Application.ISO_Date_time_localDate" />
+        <item itemvalue="Application.BaseDerivedtest" />
+        <item itemvalue="Application.SpaceStationDeleteInsert" />
+        <item itemvalue="Application.SuperSubClassInstantiateWithoutInstanceName" />
       </list>
     </recent_temporary>
   </component>
