@@ -9,8 +9,5 @@
         <module name="SDETautomation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SDETautomation" target="15" />
-    </bytecodeTargetLevel>
   </component>
 </project>
