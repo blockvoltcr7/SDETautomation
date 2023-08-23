@@ -42,6 +42,9 @@ public class VowelsChallenge {
         String vowels = "aeiouAEIOU";
         return word.chars().anyMatch(c -> vowels.indexOf(c) != -1);
     }
+
+
+
 }
 
 
