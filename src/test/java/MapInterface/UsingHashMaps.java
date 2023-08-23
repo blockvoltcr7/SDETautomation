@@ -5,12 +5,10 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import org.testng.annotations.Test;
 
 public class UsingHashMaps {
 
 	
-	@Test(enabled = false)
 	public void HashMap_WITHOUT_generics() {
 		
 		//WITH-OUT GENERICS
@@ -33,7 +31,6 @@ public class UsingHashMaps {
 
 	}
 	
-	@Test(enabled = true)
 	public void hashmap_with_Generics() {
 		
 		Map<Integer,String> map=new HashMap<Integer,String>();  

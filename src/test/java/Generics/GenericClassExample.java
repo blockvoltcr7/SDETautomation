@@ -1,6 +1,5 @@
 package Generics;
 
-import org.testng.annotations.Test;
 
 class MacBookPro<Z>{
 	
@@ -25,7 +24,6 @@ class MacBookPro<Z>{
 public class GenericClassExample {
 
 	
-	@Test(enabled = true)
 	public void testgeneric() {
 		
 		MacBookPro<Integer> mac2019	 = new MacBookPro<Integer>();
