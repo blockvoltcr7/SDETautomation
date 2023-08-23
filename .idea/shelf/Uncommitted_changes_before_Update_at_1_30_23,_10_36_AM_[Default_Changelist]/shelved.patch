@@ -1,0 +1,120 @@
+Index: src/test/java/Lambdas/LambdasPrac.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Lambdas;\n\npublic class LambdasPrac {\n\n\n    public static void main(String[] args) {\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Lambdas/LambdasPrac.java b/src/test/java/Lambdas/LambdasPrac.java
+--- a/src/test/java/Lambdas/LambdasPrac.java	(revision b108881f806e158d2f1e846fc064c1302bf07c16)
++++ b/src/test/java/Lambdas/LambdasPrac.java	(date 1675092861580)
+@@ -1,9 +1,46 @@
+ package Lambdas;
+ 
++import java.util.*;
++import java.util.function.Consumer;
++import java.util.function.Function;
++import java.util.function.IntPredicate;
++import java.util.function.Supplier;
++
+ public class LambdasPrac {
+ 
+ 
+     public static void main(String[] args) {
+ 
++        ArrayList<String> students = new ArrayList<>();
++        students.add("sami");
++        students.add("aisha");
++        students.add("larry");
++        students.add("mike");
++        students.add("harry");
++
++
++        students.forEach(s -> System.out.println(s));
++        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
++        numbers.forEach(System.out::println);
++
++        //using a consumer
++        Consumer<String> printItem = n -> System.out.println(n);
++        students.forEach(printItem);
++
++
++        //using function
++        Function<Integer,Integer> doubly = n -> n * n;
++        System.out.println(doubly.apply(8));
++
++        //using Predicate
++        IntPredicate isDivByThree = n -> n % 3 == 0;
++        System.out.println(isDivByThree.test(3));
++
++        //using Supplier
++        Supplier<Double> randomNumUnder100 = () -> Math.random() * 100;
++        System.out.println(randomNumUnder100.get());
++
++
++
+     }
+ }
+Index: src/test/java/Streams/StreamsExamples1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Streams/StreamsExamples1.java b/src/test/java/Streams/StreamsExamples1.java
+new file mode 100644
+--- /dev/null	(date 1675092861580)
++++ b/src/test/java/Streams/StreamsExamples1.java	(date 1675092861580)
+@@ -0,0 +1,53 @@
++package Streams;
++
++import java.util.Arrays;
++import java.util.List;
++import java.util.stream.Collectors;
++import java.util.stream.Stream;
++
++public class StreamsExamples1 {
++
++
++    public static void main(String[] args) {
++        // Create a stream
++        Stream<String> shoppingStream = Stream.of("apples",
++                "bananas", "cherries", "coffee");
++
++
++        // Create a stream from other collection types
++        // -------------------------------------------
++
++        // Array
++        String[] shoppingArray = new String[]{"apples",
++                "bananas", "cherries", "coffee"};
++        Stream<String> shopArrayStream = Arrays.stream(shoppingArray);
++
++        // Lists
++        List<String> shoppingList = List.of("apples",
++                "bananas", "cherries", "coffee");
++        Stream<String> shoppingListStream = shoppingList.stream();
++
++        // For loop in one line
++        shoppingList.stream().forEach(System.out::println);
++        shoppingList.parallelStream().forEach(System.out::println);
++
++        // Match
++        boolean isOnList = shoppingList.stream()
++                .anyMatch(item -> item.contains("apples"));
++
++        // Filter
++        Stream<String> itemsInAisle = shoppingList.stream()
++                .filter(item -> item.startsWith("c"));
++
++        // Map
++        List<Integer> numbersList = List.of(4, 2, 6, 9, 10, 17, 3);
++        Stream<Integer> doubledStream = numbersList.stream()
++                .map(n -> n*n);
++
++
++        // Collect
++        List<Integer> doubledList = numbersList.stream()
++                .map(n -> n * 2)
++                .collect(Collectors.toList());
++    }
++}
