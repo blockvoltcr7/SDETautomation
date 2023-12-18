@@ -1,4 +1,4 @@
-package FileReaders;
+package FileUtils;
 
 public class HashSet_DivideAndConqour {
 }
