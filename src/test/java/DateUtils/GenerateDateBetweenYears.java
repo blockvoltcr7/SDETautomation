@@ -31,19 +31,17 @@ public class GenerateDateBetweenYears {
 
     public static void main(String[] args) {
         String date = generateRandomDate(2009);
-        System.out.println(date);
+        System.out.println("1:: "+date);
         //convert the date to format of yyyy-MM-dd
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
         LocalDate localDate = LocalDate.parse(date, formatter);
-        System.out.println(localDate);
+        System.out.println("2:: "+localDate);
 
         //remove the - from the localdate
         String dateWithoutDash = localDate.toString().replace("-", "");
-        System.out.println(dateWithoutDash);
+        System.out.println("3:: "+dateWithoutDash);
 
-        System.out.println("EPAM DIAL :: "+generateRandomDate());
-
-
+        System.out.println("4:: "+generateRandomDate());
 
     }
 
