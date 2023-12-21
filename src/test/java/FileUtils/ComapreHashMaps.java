@@ -1,4 +1,4 @@
-package FileReaders;
+package FileUtils;
 
 import org.json.JSONObject;
 
